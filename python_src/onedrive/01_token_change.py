@@ -33,5 +33,5 @@ def get_onedrive_token(code: str):
 
 if __name__ == '__main__':
 
-    code = "aaaaaaaaaaaaaa"
+    code = "aaaaaaaaaaaaaaaaaaaaa"
     get_onedrive_token(code)
