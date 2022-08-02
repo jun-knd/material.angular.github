@@ -29,9 +29,11 @@ def get_onedrive_reflesh_token(refresh_token: str):
         body = res.read()
         #print(body)
         dat = json.loads(body)
-        print(dat)
+        #print(dat)
+        print("refresh_token:" + dat["refresh_token"])
+        print("access_token:" + dat["access_token"])
 
 if __name__ == '__main__':
 
-    refresh_token = "aaaaaa"
+    refresh_token = "aaaaaaaaaaaaaaaaaaaaaaaaaaa"
     get_onedrive_reflesh_token(refresh_token)
