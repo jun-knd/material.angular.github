@@ -35,5 +35,5 @@ def get_onedrive_reflesh_token(refresh_token: str):
 
 if __name__ == '__main__':
 
-    refresh_token = "aaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    refresh_token = "aaaaaaaaaaaaaaaaaaaaa"
     get_onedrive_reflesh_token(refresh_token)
